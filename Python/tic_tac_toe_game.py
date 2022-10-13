@@ -80,7 +80,6 @@ class TicTacToe:
                 return 1
             if b[i][0]=='O' and b[i][1]=='O' and b[i][2]=='O':
                 return 2
-
         for i in range(0,3): #column case
             if b[0][i]=='X' and b[1][i]=='X' and b[2][i]=='X':
                 return 1
